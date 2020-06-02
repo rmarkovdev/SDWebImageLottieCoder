@@ -6,17 +6,17 @@
         "repositoryURL": "https://github.com/SDWebImage/librlottie-Xcode.git",
         "state": {
           "branch": null,
-          "revision": "30277114e26bc005b1577194d6649adc2042eb41",
+          "revision": "b72d9b289c9ac84488f80a521fd4e5ee51069e58",
           "version": "0.1.1"
         }
       },
       {
         "package": "SDWebImage",
-        "repositoryURL": "https://github.com/SDWebImage/SDWebImage.git",
+        "repositoryURL": "https://github.com/PhilipDukhov/SDWebImage.git",
         "state": {
           "branch": null,
-          "revision": "aa7cc070ccf01ce6ea85dd0b3176f712ac23ea1a",
-          "version": "5.6.0"
+          "revision": "7435113072dbe7f49e139be9dc9ffee6932cabc6",
+          "version": "5.8.1"
         }
       }
     ]
