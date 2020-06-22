@@ -32,7 +32,10 @@ A Lottie animation coder which use SDAnimatedImageView instead of LOTAnimationVi
   s.watchos.deployment_target = '2.0'
 
   s.source_files = 'SDWebImageLottieCoder/Classes/**/*', 'SDWebImageLottieCoder/Module/SDWebImageLottieCoder.h'
-  
+  s.watchos.xcconfig = {
+    'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) SD_WEBP=1 WEBP_USE_INTRINSICS=1',
+    'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/librlottie/src'
+  }
   s.dependency 'SDWebImage', '~> 5.6'
-  s.dependency 'librlottie', '~> 0.1'
+  s.dependency 'librlottie', '0.1.0'
 end
