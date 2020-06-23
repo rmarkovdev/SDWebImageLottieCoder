@@ -37,5 +37,5 @@ A Lottie animation coder which use SDAnimatedImageView instead of LOTAnimationVi
     'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/librlottie/src'
   }
   s.dependency 'SDWebImage', '~> 5.6'
-  s.dependency 'librlottie', '0.1.0'
+#  s.dependency 'librlottie', '0.1.0'
 end
